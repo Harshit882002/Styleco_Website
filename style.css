@@ -1,0 +1,714 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h1{
+    font-size: 40px;
+    color: black;
+    margin-left: 50px;
+    font-weight: 600;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    gap: 40px;
+    margin-right: 450px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+#nav-part1 :hover{
+    scale: 1.2;
+}
+#nav-part1 h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+#nav-part2{
+    margin-right: 50px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+#nav-part2 :hover{
+    scale: 1.2;
+}
+#nav-part2 i{
+    margin-right: 15px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 15px solid black;
+    border-radius: 50%;
+}
+#nav-part2 button{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: transparent;
+}
+#nav2{
+    width: 100%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#nav2 h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+    letter-spacing: 3px;
+}
+#nav2 #a{
+    font-size: 18px;
+    margin-right: 700px;
+}
+#nav2 #b{
+    font-size: 18px;
+    margin-right: 70px;
+    text-decoration: underline;
+}
+#box{
+    width: 100%;
+    height: 60%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: -40px;
+    
+}
+#box #box1{
+    width: 470px;
+    height: 360px;
+    background-image: url(https://images.unsplash.com/photo-1619715613791-89d35b51ff81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position:  bottom -60px right 7px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    position: relative;
+    
+}
+#box1 :hover{
+    scale: 1.2;
+}
+#box1 i{
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 10px solid white;
+    margin-left: 410px;
+    position: absolute;
+    top: 6%;
+   
+}
+#box1 #button1{
+    
+   position: absolute;
+   left: 5%;
+   bottom: 14%;
+   padding: 5px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+#box1 #button2{
+    
+    position: absolute;
+    left: 5%;
+    bottom: 3%;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+ }
+#box #c{
+    position: absolute;
+    bottom: 14%;
+    left: 6%;
+}
+#box #d{
+    position: absolute;
+    bottom: 7%;
+    left: 6%;
+    
+}
+#box #box2{
+    width: 320px;
+    height: 360px;
+    background-image: url(https://images.unsplash.com/photo-1583397758789-a13d1484aa67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+#box #e{
+    position: absolute;
+    bottom: 14%;
+    left: 45%;
+}
+#box #f{
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
+}
+#box2 i{
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 10px solid white;
+    margin-left: 270px;
+    position: absolute;
+    top: 35%;
+   
+}
+#box #box3{
+    width: 320px;
+    height: 360px;
+    background-image: url(https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man_158538-19391.jpg?w=1480&t=st=1690188571~exp=1690189171~hmac=1a074d879194ed0ce219d67f9b13a373cb651c293f1d39cf1686acde2a96366f);
+    background-size: cover;
+    background-position: left;
+    border-radius: 10px;
+}
+#box3 i{
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: 10px solid white;
+    margin-left: 270px;
+    position: absolute;
+    top: 35%;
+   
+}
+#box #g{
+    position: absolute;
+    bottom: 14%;
+    left: 73%;
+}
+#box #h{
+    position: absolute;
+    bottom: 10%;
+    left: 73%;
+}
+#page2{
+    width: 100%;
+    height: 60%;
+    /* background-color: crimson; */
+}
+#page2 h1{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 30px 80px;
+}
+#nav3{
+    width: 100%;
+    height: 100px;
+    /* background-color: royalblue; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 80px;
+}
+#nav3 button{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 25px 25px;
+    border: none;
+    border-radius: 23% 10%;
+    color: rgba(0, 0, 0, 0.574)
+}
+#page2 #page2-h1{
+    padding-top: 50px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 38px;
+}
+#page2 h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: end;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    text-decoration: underline;
+}
+#page3{
+    width: 100%;
+    height: 140%;
+    /* background-color: crimson; */
+    position: relative;
+}
+#box-part1{
+    width: 100%;
+    height: 45%;
+    /* background-color: royalblue; */
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#box-part1 #box4{
+    width: 18%;
+    height: 75%;
+    background-image: url(https://roscoe.in/cdn/shop/products/AVEGR_RED_1.webp?v=1676003475);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#box4 i{
+    font-size: 25px;
+    position: absolute;
+    left: 21%;
+    margin-top: 5px;
+    
+}
+#box-part1 h3{
+    position: absolute;
+    left: 6%;
+    bottom: 61%;
+    font-weight: 500;
+}
+#box-part1 h4{
+    position: absolute;
+    left: 6%;
+    bottom: 58%;
+    font-weight: 500;
+    
+}
+#box-part1 #bag{
+    position: absolute;
+    left: 19%;
+    bottom: 58%;
+    background-color: #DADBDD;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+#box-part1 #box5{
+    width: 18%;
+    height: 75%;
+    background-image: url(https://roscoe.in/cdn/shop/products/1_901b522f-49ff-4275-a52f-1b3a5c19e402.jpg?v=1662786941);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#box5 i{
+    font-size: 25px;
+    position: absolute;
+    left: 44%;
+    margin-top: 5px;
+    
+}
+#box-part1 #h51{
+    position: absolute;
+    left: 30%;
+    bottom: 61%;
+    font-weight: 500;
+}
+#box-part1 #h52{
+    position: absolute;
+    left: 30%;
+    bottom: 58%;
+    font-weight: 500;
+    
+}
+#box-part1 #bag1{
+    position: absolute;
+    left: 45%;
+    bottom: 58%;
+    background-color: #DADBDD;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+#box-part1 #box6{
+    width: 18%;
+    height: 75%;
+    background-image: url(https://roscoe.in/cdn/shop/products/roscoe_23_1.jpg?v=1667988839);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#box6 i{
+    font-size: 25px;
+    color: rgb(204, 11, 108);
+    position: absolute;
+    left: 68%;
+    margin-top: 5px;
+    
+}
+#box-part1 #h61{
+    position: absolute;
+    left: 53%;
+    bottom: 61%;
+    font-weight: 500;
+}
+#box-part1 #h62{
+    position: absolute;
+    left: 53%;
+    bottom: 58%;
+    font-weight: 500;
+    
+}
+#box-part1 #bag2{
+    position: absolute;
+    left: 68%;
+    bottom: 58%;
+    background-color: #DADBDD;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+#box-part1 #box7{
+    width: 18%;
+    height: 75%;
+    background-image: url(https://roscoe.in/cdn/shop/products/roscoe_14_1.jpg?v=1667988810);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#box7 i{
+    font-size: 25px;
+    position: absolute;
+    right: 7%;
+    margin-top: 5px;
+    
+}
+#box-part1 #h71{
+    position: absolute;
+    left: 77%;
+    bottom: 61%;
+    font-weight: 500;
+}
+#box-part1 #h72{
+    position: absolute;
+    left: 77%;
+    bottom: 58%;
+    font-weight: 500;
+    
+}
+#box-part1 #bag3{
+    position: absolute;
+    left: 92%;
+    bottom: 58%;
+    background-color: #DADBDD;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+#box-part2{
+    width: 100%;
+    height: 45%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+#box-part2 #box8{
+    width: 18%;
+    height: 75%;
+    background-image: url(https://roscoe.in/cdn/shop/products/2_a7a7cf8a-7b08-462d-a591-f7cb8b4b365b.jpg?v=1662786937);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+   margin-bottom: 15px;
+}
+#box8 i{
+    font-size: 25px;
+    position: absolute;
+    left: 21%;
+    margin-top: 5px;
+    
+}
+#box-part2 #h81{
+    position: absolute;
+    left: 6%;
+    bottom: 12%;
+    font-weight: 500;
+}
+#box-part2 #h82{
+    position: absolute;
+    left: 6%;
+    bottom: 9%;
+    font-weight: 500;
+    
+}
+#box-part2 #bag4{
+    position: absolute;
+    left: 20%;
+    bottom: 9%;
+    background-color: #DADBDD;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+#box-part2 #box9{
+    width: 18%;
+    height: 75%;
+    background-image: url(https://roscoe.in/cdn/shop/products/front_1100x.jpg?v=1675330845);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+#box9 i{
+    font-size: 25px;
+    position: absolute;
+    left: 44%;
+    margin-top: 5px;
+    
+}
+#box-part2 #h91{
+    position: absolute;
+    left: 30%;
+    bottom: 12%;
+    font-weight: 500;
+}
+#box-part2 #h92{
+    position: absolute;
+    left: 30%;
+    bottom: 9%;
+    font-weight: 500;
+    
+}
+#box-part2 #bag5{
+    position: absolute;
+    left: 45%;
+    bottom: 9%;
+    background-color: #DADBDD;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+#box-part2 #box10{
+    width: 18%;
+    height: 75%;
+    background-image: url(https://roscoe.in/cdn/shop/products/roscoe_3_1.jpg?v=1667988764);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+#box10 i{
+    font-size: 25px;
+    color: rgb(226, 1, 114);
+    position: absolute;
+    left: 44%;
+    margin-top: 5px;
+    
+}
+#box-part2 #h101{
+    position: absolute;
+    left: 53%;
+    bottom: 12%;
+    font-weight: 500;
+}
+#box-part2 #h102{
+    position: absolute;
+    left: 53%;
+    bottom: 9%;
+    font-weight: 500;
+    
+}
+#box-part2 #bag6{
+    position: absolute;
+    left: 68%;
+    bottom: 9%;
+    background-color: #DADBDD;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+#box-part2 #box11{
+    width: 18%;
+    height: 75%;
+    background-image: url(https://roscoe.in/cdn/shop/products/1_f122df6c-3a8a-492c-ae36-9b8062cff4d1_1100x.jpg?v=1674529510);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+#box11 i{
+    font-size: 25px;
+    position: absolute;
+    right: 7%;
+    margin-top: 5px;
+    
+}
+#box-part2 #h111{
+    position: absolute;
+    left: 77%;
+    bottom: 12%;
+    font-weight: 500;
+}
+#box-part2 #h112{
+    position: absolute;
+    left: 77%;
+    bottom: 9%;
+    font-weight: 500;
+    
+}
+#box-part2 #bag7{
+    position: absolute;
+    left: 92%;
+    bottom: 9%;
+    background-color: #DADBDD;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+}
+#page3 h1{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+}
+#page4{
+    width: 100%;
+    height: 50%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page4 #box12{
+    width: 25%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1606391901318-07003db08d63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80);
+    background-size: cover;
+    background-position: top;
+    border-radius: 15px;
+    
+}
+#box12 h3{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 40%;
+    padding-left: 5%;
+}
+#page4 #box13{
+    width: 25%;
+    height: 70%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1668485968650-be7c63050e59?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+#box13 h3{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 45%;
+    padding-left: 5%;
+}
+#page4 #box14{
+    width: 25%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1491897554428-130a60dd4757?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1780&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+#box14 h3{
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 45%;
+    padding-left: 5%;
+}
+#page5{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+#page5 #box15{
+    width: 35%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1633432695542-b2c8e2b8a26c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+#box15 h3{
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 55px;
+    font-weight: 500;
+    
+}
+#page5 #box16{
+    width: 35%;
+    height: 80%;
+    background-image: url(https://img.freepik.com/free-photo/front-view-young-pretty-female-holding-sale-writing-black-wall-colors-shopping-fashion-photo-emotion-beauty-model-xmas_140725-108737.jpg?w=1480&t=st=1690278617~exp=1690279217~hmac=f91573ada6a5a41121748e83351c6942b2cd39b6da7896889ada5320b4fe6b64);
+    background-size: cover;
+    background-position: left;
+    border-radius: 15px;
+}
+#box16 button{
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin-top: 240px;
+    margin-left: 370px;
+    background-color: black;
+    color: white;
+}
+#page6{
+    width: 100%;
+    height: 100px;
+    /* background-color: gray; */
+}
+#heading{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 30px;
+}
